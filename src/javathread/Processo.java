@@ -13,7 +13,6 @@ public class Processo extends Thread {
     String a;
     public Processo(String a) {
         this.a=a;
-        this.start();
     }
     public void run(){
         for (;;) System.out.println(a);
